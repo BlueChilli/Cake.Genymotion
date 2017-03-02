@@ -92,6 +92,8 @@
     <Compile Include="Fixtures\License\GenymotionLicenseCountFixture.cs" />
     <Compile Include="Fixtures\License\GenymotionLicenseInfoFixture.cs" />
     <Compile Include="Fixtures\License\GenymotionLicenseRegisterFixture.cs" />
+    <Compile Include="Fixtures\VirtualBoxFixture.cs" />
+    <Compile Include="Fixtures\VirtualBox\VirtualBoxListFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Unit\Admin\GenymotionAdminFactoryResetTests.cs" />
     <Compile Include="Unit\Admin\GenymotionAdminListTests.cs" />
@@ -104,6 +106,8 @@
     <Compile Include="Unit\License\GenymotionLicenseCountTests.cs" />
     <Compile Include="Unit\License\GenymotionLicenseInfoTests.cs" />
     <Compile Include="Unit\License\GenymotionLicenseRegisterTests.cs" />
+    <Compile Include="Unit\VirtualBox\VirtualBoxListTests.cs" />
+    <Compile Include="Unit\VirtualBox\VirtulBoxListGrammerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -130,6 +134,9 @@
     </Content>
     <Content Include="Fixtures\License\LicenseInfo.txt" />
     <Content Include="Fixtures\License\LicenseValidity.txt" />
+    <Content Include="Fixtures\VirtualBox\VirtualMachineList.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

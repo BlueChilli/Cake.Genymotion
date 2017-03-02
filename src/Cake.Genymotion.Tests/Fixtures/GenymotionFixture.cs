@@ -1,4 +1,5 @@
 ﻿using Cake.Core.IO;
+using Cake.Genymotion.VirtualBox;
 using Cake.Testing.Fixtures;
 
 namespace Cake.Genymotion.Tests.Fixtures
@@ -17,4 +18,6 @@ namespace Cake.Genymotion.Tests.Fixtures
             return new ToolFixtureResult(path, process);
         }
     }
+
+ 
 }

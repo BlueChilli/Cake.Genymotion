@@ -11,7 +11,7 @@ namespace Cake.Genymotion.Tests.Fixtures.Admin
     {
         public GenymotionAdminListFixture()
         {
-            var standardOutput = File.ReadAllLines(@"Fixtures\Admin\AdminList.txt");
+            var standardOutput = File.ReadAllLines(@"..\..\Fixtures\Admin\AdminList.txt");
             ProcessRunner.Process.SetStandardOutput(standardOutput);
         }
 

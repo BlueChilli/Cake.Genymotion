@@ -31,16 +31,16 @@
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Cake.Core, Version=0.13.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cake.Core.0.13.0\lib\net45\Cake.Core.dll</HintPath>
+    <Reference Include="Cake.Core, Version=0.17.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cake.Core.0.17.0\lib\net45\Cake.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sprache, Version=2.0.0.52, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sprache.2.0.0.52\lib\portable-net4+netcore45+win8+wp8+sl5+MonoAndroid+Xamarin.iOS10+MonoTouch\Sprache.dll</HintPath>
+    <Reference Include="Sprache, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sprache.2.1.0\lib\net40\Sprache.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -67,6 +67,11 @@
     <Compile Include="GenymotionAliases.cs" />
     <Compile Include="Admin\GenymotionSimulatorNetworkMode.cs" />
     <Compile Include="Admin\GenymotionSimulatorTemplate.cs" />
+    <Compile Include="Player\GenymotionPlayerRunner.cs" />
+    <Compile Include="VirtualBox\VirtualBoxListGrammer.cs" />
+    <Compile Include="VirtualBox\VirtualBoxRunner.cs" />
+    <Compile Include="VirtualBox\VirtualBoxSettings.cs" />
+    <Compile Include="VirtualBox\VirtualBoxTool.cs" />
     <Compile Include="License\GenymotionLicense.cs" />
     <Compile Include="License\GenymotionLicenseRunner.cs" />
     <Compile Include="Admin\GenymotionAdminSettings.cs" />
@@ -84,6 +89,7 @@
     <Compile Include="Version\GenymotionVersion.cs" />
     <Compile Include="Version\GenymotionVersionSettings.cs" />
     <Compile Include="Version\GenymotionVersionRunner.cs" />
+    <Compile Include="VirtualBox\VirtualMachine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

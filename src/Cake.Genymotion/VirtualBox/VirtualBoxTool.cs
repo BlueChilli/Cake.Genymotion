@@ -4,24 +4,24 @@ using Cake.Core.Tooling;
 using System;
 using System.Collections.Generic;
 
-namespace Cake.Genymotion
+namespace  Cake.Genymotion.VirtualBox
 {
     /// <summary>
     ///     Base class for all Genymotion related tools.
     /// </summary>
     /// <typeparam name="TSettings">The settings type.</typeparam>
-    internal abstract class GenymotionTool<TSettings> : Tool<TSettings>
-        where TSettings : GenymotionSettings
+    public abstract class VirtualBoxTool<TSettings> : Tool<TSettings>
+        where TSettings : VirtualBoxSettings
     {
         /// <summary>
-        ///     Initializes a new instance of the <see cref="GenymotionTool{TSettings}" /> class.
+        ///     Initializes a new instance of the <see cref="VirtualBoxSettings{TSettings}" /> class.
         /// </summary>
         /// <param name="fileSystem">The file system.</param>
         /// <param name="environment">The environment.</param>
         /// <param name="processRunner">The process runner.</param>
         /// <param name="tools">The tool locator.</param>
         /// <param name="settings">The settings.</param>
-        protected GenymotionTool(
+        protected VirtualBoxTool(
             IFileSystem fileSystem,
             ICakeEnvironment environment,
             IProcessRunner processRunner,
@@ -46,15 +46,6 @@ namespace Cake.Genymotion
             }
 
             var builder = new ProcessArgumentBuilder();
-            if (settings.Verbose)
-            {
-                builder.Append("--verbose");
-            }
-
-            if (settings.Timeout.HasValue)
-            {
-                builder.Append($"--timeout {settings.Timeout}");
-            }
 
             return builder;
         }
@@ -67,8 +58,8 @@ namespace Cake.Genymotion
         {
             return new FilePath[]
             {
-                new FilePath(@"C:\Program Files\Genymobile\Genymotion\gmtool.exe"),
-                new FilePath(@"/Applications/Genymotion.app/Contents/MacOS/gmtool")
+                new FilePath(@"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"),
+                new FilePath(@"/Applications/VirtualBox.app/Contents/MacOS/VBoxManage")
             };
         }
 
@@ -80,8 +71,8 @@ namespace Cake.Genymotion
         {
             return new[]
             {
-                "gmtool",
-                "gmtool.exe"
+                "VBoxManage",
+                "VBoxManage.exe"
             };
         }
 
@@ -91,7 +82,7 @@ namespace Cake.Genymotion
         /// <returns>The name of the tool.</returns>
         protected override string GetToolName()
         {
-            return "Genymotion";
+            return "VirtualBox";
         }
 
         /// <summary>

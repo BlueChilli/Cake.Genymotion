@@ -1,0 +1,15 @@
+﻿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec orci ipsum. Fusce varius mollis cursus. Quisque vel porttitor turpis. Nunc vitae leo sit amet justo sagittis commodo. Quisque aliquet est id lobortis iaculis. Mauris cursus venenatis nisi eget scelerisque. In mollis quis leo ut varius. Donec eu nunc dolor.
+
+Duis vestibulum tempus lacus vestibulum condimentum. Cras finibus, tortor at consectetur lobortis, sapien libero efficitur ante, eget feugiat lorem augue ornare odio. Proin eget ipsum iaculis enim fermentum dictum in sit amet sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis odio augue, molestie in condimentum quis, accumsan vel turpis. In tincidunt volutpat laoreet. Cras imperdiet, libero quis mattis efficitur, felis orci tincidunt nisl, sit amet sollicitudin justo tortor ut eros. Nullam eleifend ligula nulla, finibus pulvinar urna faucibus id. Sed aliquam, lectus eget ornare vulputate, dolor nisl mattis urna, sed tristique purus nulla vel sapien. Suspendisse vitae pharetra risus.
+
+In purus lectus, maximus sit amet sodales sit amet, vulputate vitae risus. Curabitur sit amet molestie nunc, ac interdum ipsum. Sed tincidunt lectus lectus, at placerat nulla scelerisque malesuada. Proin quis tellus nec lorem tempus pretium. Nullam consequat laoreet ex, id efficitur nisl efficitur ac. Vivamus non facilisis odio. Ut urna metus, condimentum eu interdum eget, elementum a purus. Aenean malesuada laoreet varius. Donec facilisis vestibulum gravida. Proin laoreet efficitur est vel pretium. Aenean lacinia felis placerat finibus mollis. Nam id elit et nisi euismod rhoncus. Vestibulum rutrum scelerisque massa. Nullam faucibus mauris sit amet varius elementum. Phasellus eu placerat justo, et feugiat mauris.
+
+"Nexus 5 (Lollipop)" {b7c55d9c-cc49-4b28-91ec-ea79933a55a1}
+"Samsung Galaxy S4 - 4.2.2 - API 17 - 1080x1920" {cc293d38-9187-4c55-9f47-f4b8faf58c4b}
+"Samsung Galaxy S4 - 4.3 - API 18 - 1080x1920" {1e2d9cab-76be-4ac8-8774-2afdbc9e76e8}
+"Samsung Galaxy S4 - 4.4.4 - API 19 - 1080x1920" {476290a4-3cd1-4514-b36a-86081496df69}
+"Samsung Galaxy S6 - 5.1.0 - API 22 - 1440x2560" {f289560e-9f49-4164-a008-aa6b12604ae1}
+"Samsung Galaxy S7 - 6.0.0 - With Proxy" {cbf96aff-18d3-4917-957c-f0925193b6aa}
+"Samsung Galaxy S6 - 6.0.0 - API 23 - 1440x2560" {cf7d85c6-61a7-4f01-a583-f073df3b628f}
+"Google Nexus 6 - 7.0.0 - API 24 - 1440x2560" {ecd4d6ce-3733-46f4-b7bb-e6c21e1660e4}
+"Google Nexus 5 - 6.0.0 - API 23 - 1080x1920" {a26e023c-dd7e-4351-a08e-b693fa7a911b}
